@@ -1,0 +1,31 @@
+{
+  "name": "object-tracker",
+  "version": "0.1.0",
+  "description": "A small zero-dependency library that allows to track changes to objects ✨",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc2md -f index.js -t TEMPLATE.hbs > DOCS.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uWynell/object-tracker.git"
+  },
+  "keywords": [
+    "track",
+    "tracker",
+    "object"
+  ],
+  "author": "Wynell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uWynell/object-tracker/issues"
+  },
+  "homepage": "https://github.com/uWynell/object-tracker#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^6.0.1"
+  },
+  "files": [
+    "index.js",
+    "DOCS.md"
+  ]
+}
